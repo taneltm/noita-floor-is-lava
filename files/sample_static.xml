@@ -1,0 +1,5 @@
+<Entity name="floor_is_lava_sample" tags="floor_is_lava_sample">
+  <Base file="mods/floor_is_lava/files/sample.xml">
+    <MaterialSuckerComponent suck_static_materials="1" />
+  </Base>
+</Entity>

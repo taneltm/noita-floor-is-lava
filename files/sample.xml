@@ -1,0 +1,16 @@
+<Entity name="floor_is_lava_sample" tags="floor_is_lava_sample">
+  <ItemComponent is_pickable="0" />
+  <LifetimeComponent lifetime="45" />
+  <!-- The game's static-material pouch has both PotionComponent and inventory.
+       Keep that component setup for the native collection system. -->
+  <PotionComponent dont_spray_static_materials="1" />
+  <MaterialInventoryComponent drop_as_item="0" on_death_spill="0" leak_gently="0"
+      leak_on_damage_percent="0" do_reactions="0" do_reactions_explosions="0" do_reactions_entities="0">
+    <count_per_material_type />
+  </MaterialInventoryComponent>
+  <!-- Ordinary loose-powder collection, matching the normal pouch. The static
+       variant is tried separately. Neither variant collects liquids. -->
+  <MaterialSuckerComponent material_type="1" barrel_size="50" num_cells_sucked_per_frame="1" suck_static_materials="0"
+      set_projectile_to_liquid="0"
+      randomized_position.min_x="0" randomized_position.max_x="1" randomized_position.min_y="0" randomized_position.max_y="2" />
+</Entity>

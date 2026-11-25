@@ -1,0 +1,14 @@
+<Materials>
+  <!-- Solid Box2D material for a usable tablet. Glow is cosmetic: this does
+       not inherit liquid lava's burning, melting, or status effects. -->
+  <CellData name="floor_is_lava_tablet" ui_name="Solid lava"
+      cell_type="solid" tags="[box2d],[solid],[sunbaby_ignore_list]"
+      density="8" platform_type="1" solid_static_type="0" solid_friction="0.7"
+      hp="100000" durability="14" electrical_conductivity="0"
+      burnable="0" on_fire="0" generates_smoke="0" requires_oxygen="0"
+      gfx_glow="150" wang_color="ffff6000"
+      audio_physics_material_wall="rock" audio_physics_material_solid="rock"
+      audio_size_multiplier="3.0">
+    <Graphics color="ffff6000" />
+  </CellData>
+</Materials>

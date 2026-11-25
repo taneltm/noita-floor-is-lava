@@ -1,0 +1,15 @@
+<Entity tags="tablet,normal_tablet,floor_is_lava_tablet">
+  <Base file="data/entities/items/books/base_book.xml">
+    <UIInfoComponent name="The floor is lava" />
+    <ItemComponent item_name="The floor is lava" ui_description="Use rocks, carts, crates to stand on. Whatever you do, do not step on the ground!"
+        ui_sprite="data/ui_gfx/items/runestone_lava.png" />
+    <AbilityComponent ui_name="The floor is lava" />
+    <PhysicsImageShapeComponent material="floor_is_lava_tablet"
+        image_file="data/items_gfx/runestones/runestone_lava.png" />
+    <SpriteComponent image_file="data/items_gfx/in_hand/runestone_lava.png"
+        offset_x="4" offset_y="8" emissive="1" />
+    <LightComponent r="255" g="96" b="16" />
+    <ParticleEmitterComponent emitted_material_name="spark_red"
+        emit_cosmetic_particles="1" create_real_particles="0" />
+  </Base>
+</Entity>
