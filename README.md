@@ -4,6 +4,8 @@ You can stand on physics objects, but touch the floor for too long and it turns 
 
 This vibecoded mod is easy for the professional tablet surfers, right?
 
+https://github.com/user-attachments/assets/abe6cbe4-b7de-47b6-9224-0ed40c3d9886
+
 ## Rules
 
 - 10 seconds of grace at the start of a run.
