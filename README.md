@@ -26,4 +26,6 @@ Both are off by default.
 
 ## Install
 
-Copy the `floor_is_lava` folder into `Noita/mods/`, enable it in the Mods menu and start a new game. Keep the folder name as `floor_is_lava`.
+1. Download `floor_is_lava.zip` from the [latest release](https://github.com/taneltm/noita-floor-is-lava/releases/latest).
+2. Extract it into `Noita/mods/`, so that you have `Noita/mods/floor_is_lava/mod.xml`. Keep the folder name as `floor_is_lava`.
+3. Enable the mod in the Mods menu and start a new game.
